@@ -1,0 +1,5 @@
+// Specialization for the Development
+
+#include "Base.xcconfig"
+
+BUILD_ENV = DEVELOPMENT

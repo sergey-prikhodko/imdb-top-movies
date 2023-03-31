@@ -1,0 +1,25 @@
+// Shared environment values for Development, Staging and Production configs of the app
+
+BUILD_ENV =
+
+// Values used in SWIFT_ACTIVE_COMPILATION_CONDITIONS
+BUILD_COMPILATION_CONDITIONS = BUILD_ENV_$(BUILD_ENV)
+
+// Config.plist name based on the BUILD_ENV lowercase. Thefefore DEVELOPMENT -> Config.development.plist
+ENV_FILE = Environment.${BUILD_ENV:lower}.plist
+
+// Info.plist files should be automatically generated for each target except executable ones.
+// imdb-top-movies and Widget targets override with value to use implicit Info.plist.
+GENERATE_INFOPLIST_FILE = YES
+
+// imdb-top-movies (Main) overrides this value
+SKIP_INSTALL = YES
+
+IPHONEOS_DEPLOYMENT_TARGET = 15.0
+
+DEFINES_MODULE = YES
+CODE_SIGN_STYLE = Automatic
+
+// Versioning
+CURRENT_PROJECT_VERSION = 1
+MARKETING_VERSION = 0.0.1
