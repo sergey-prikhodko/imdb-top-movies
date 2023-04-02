@@ -8,6 +8,8 @@ BUILD_COMPILATION_CONDITIONS = BUILD_ENV_$(BUILD_ENV)
 // Config.plist name based on the BUILD_ENV lowercase. Thefefore DEVELOPMENT -> Config.development.plist
 ENV_FILE = Environment.${BUILD_ENV:lower}.plist
 
+INFOPLIST_PREPROCESSOR_DEFINITIONS = $(inherited)
+
 // Info.plist files should be automatically generated for each target except executable ones.
 // imdb-top-movies and Widget targets override with value to use implicit Info.plist.
 GENERATE_INFOPLIST_FILE = YES
