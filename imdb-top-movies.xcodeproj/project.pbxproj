@@ -50,8 +50,6 @@
 		B5743EEC29DCE41E00B7C380 /* ApplicationFlowAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EEB29DCE41E00B7C380 /* ApplicationFlowAssembly.swift */; };
 		B5C2018529D0F5300075E017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2018429D0F5300075E017 /* AppDelegate.swift */; };
 		B5C2018729D0F5300075E017 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2018629D0F5300075E017 /* SceneDelegate.swift */; };
-		B5C2018929D0F5300075E017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2018829D0F5300075E017 /* ViewController.swift */; };
-		B5C2018C29D0F5300075E017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C2018A29D0F5300075E017 /* Main.storyboard */; };
 		B5C2018E29D0F5320075E017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C2018D29D0F5320075E017 /* Assets.xcassets */; };
 		B5C2019129D0F5320075E017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C2018F29D0F5320075E017 /* LaunchScreen.storyboard */; };
 		B5C201A029D0FF170075E017 /* UI.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C2019F29D0FF170075E017 /* UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -180,8 +178,6 @@
 		B5C2018129D0F5300075E017 /* imdb-top-movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "imdb-top-movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C2018429D0F5300075E017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C2018629D0F5300075E017 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5C2018829D0F5300075E017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B5C2018B29D0F5300075E017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5C2018D29D0F5320075E017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5C2019029D0F5320075E017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5C2019229D0F5320075E017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -430,6 +426,31 @@
 			path = TopMovies;
 			sourceTree = "<group>";
 		};
+		B5743EED29DCEB6600B7C380 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2019229D0F5320075E017 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B5743EEE29DCEBBF00B7C380 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2018D29D0F5320075E017 /* Assets.xcassets */,
+				B5743EEF29DCEBC900B7C380 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B5743EEF29DCEBC900B7C380 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B5C2018F29D0F5320075E017 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		B5C2017829D0F5300075E017 = {
 			isa = PBXGroup;
 			children = (
@@ -462,14 +483,11 @@
 		B5C2018329D0F5300075E017 /* imdb-top-movies */ = {
 			isa = PBXGroup;
 			children = (
-				B5743EE529DCDF9C00B7C380 /* Flows */,
 				B5C2018429D0F5300075E017 /* AppDelegate.swift */,
 				B5C2018629D0F5300075E017 /* SceneDelegate.swift */,
-				B5C2018829D0F5300075E017 /* ViewController.swift */,
-				B5C2018A29D0F5300075E017 /* Main.storyboard */,
-				B5C2018D29D0F5320075E017 /* Assets.xcassets */,
-				B5C2018F29D0F5320075E017 /* LaunchScreen.storyboard */,
-				B5C2019229D0F5320075E017 /* Info.plist */,
+				B5743EE529DCDF9C00B7C380 /* Flows */,
+				B5743EEE29DCEBBF00B7C380 /* Resources */,
+				B5743EED29DCEB6600B7C380 /* SupportingFiles */,
 			);
 			path = "imdb-top-movies";
 			sourceTree = "<group>";
@@ -799,7 +817,6 @@
 			files = (
 				B5C2019129D0F5320075E017 /* LaunchScreen.storyboard in Resources */,
 				B5C2018E29D0F5320075E017 /* Assets.xcassets in Resources */,
-				B5C2018C29D0F5300075E017 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -894,7 +911,6 @@
 			files = (
 				B5743EEC29DCE41E00B7C380 /* ApplicationFlowAssembly.swift in Sources */,
 				B5743EE829DCE07000B7C380 /* TopMoviesAssembly.swift in Sources */,
-				B5C2018929D0F5300075E017 /* ViewController.swift in Sources */,
 				B5C2018529D0F5300075E017 /* AppDelegate.swift in Sources */,
 				B5C2018729D0F5300075E017 /* SceneDelegate.swift in Sources */,
 				B5743EEA29DCE23700B7C380 /* ApplicationFlowCoordinator.swift in Sources */,
@@ -965,14 +981,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B5C2018A29D0F5300075E017 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5C2018B29D0F5300075E017 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B5C2018F29D0F5320075E017 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1390,11 +1398,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "imdb-top-movies/Info.plist";
+				INFOPLIST_FILE = "imdb-top-movies/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Top 250 IMDb";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1420,11 +1427,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "imdb-top-movies/Info.plist";
+				INFOPLIST_FILE = "imdb-top-movies/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Top 250 IMDb";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1597,11 +1603,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "imdb-top-movies/Info.plist";
+				INFOPLIST_FILE = "imdb-top-movies/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Top 250 IMDb";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1724,11 +1729,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				DEVELOPMENT_TEAM = MFVF92WP4G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "imdb-top-movies/Info.plist";
+				INFOPLIST_FILE = "imdb-top-movies/SupportingFiles/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Top 250 IMDb";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
