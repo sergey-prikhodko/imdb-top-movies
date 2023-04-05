@@ -24,7 +24,7 @@ public final class TopMoviesFlowCoordinator {
 extension TopMoviesFlowCoordinator: FlowCoordinator {
   
   public func createFlow() -> UIViewController {
-    let controller = TopListControllerAssembler.assembly(navigationHandler: self, dependencies: dependencies)
+    let controller = TopListControllerAssembly.assemble(navigationHandler: self, dependencies: dependencies)
     
     return controller
   }

@@ -33,7 +33,7 @@
 		B5743EC029DB92C100B7C380 /* APIRequestProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EBF29DB92C100B7C380 /* APIRequestProxy.swift */; };
 		B5743EC229DB94D400B7C380 /* ApiPrefixPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EC129DB94D400B7C380 /* ApiPrefixPlugin.swift */; };
 		B5743EC429DB95C400B7C380 /* ApiKeyPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EC329DB95C400B7C380 /* ApiKeyPlugin.swift */; };
-		B5743EC629DB98B000B7C380 /* CoreApiClientAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EC529DB98B000B7C380 /* CoreApiClientAssembler.swift */; };
+		B5743EC629DB98B000B7C380 /* CoreApiClientAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EC529DB98B000B7C380 /* CoreApiClientAssembly.swift */; };
 		B5743ECA29DB9ACF00B7C380 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EC929DB9ACF00B7C380 /* Dependencies.swift */; };
 		B5743ECE29DB9DF400B7C380 /* TopMoviesRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743ECD29DB9DF400B7C380 /* TopMoviesRequestService.swift */; };
 		B5743ED129DB9EA500B7C380 /* TopMoviesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743ED029DB9EA500B7C380 /* TopMoviesRequest.swift */; };
@@ -44,7 +44,7 @@
 		B5743EDD29DCD9D500B7C380 /* TopMoviesListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EDC29DCD9D500B7C380 /* TopMoviesListModel.swift */; };
 		B5743EDF29DCDAC400B7C380 /* TopMoviesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EDE29DCDAC400B7C380 /* TopMoviesListViewModel.swift */; };
 		B5743EE129DCDB2300B7C380 /* TopMoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EE029DCDB2300B7C380 /* TopMoviesListViewController.swift */; };
-		B5743EE429DCDBA500B7C380 /* TopListControllerAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EE329DCDBA500B7C380 /* TopListControllerAssembler.swift */; };
+		B5743EE429DCDBA500B7C380 /* TopListControllerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EE329DCDBA500B7C380 /* TopListControllerAssembly.swift */; };
 		B5743EE829DCE07000B7C380 /* TopMoviesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EE729DCE07000B7C380 /* TopMoviesAssembly.swift */; };
 		B5743EEA29DCE23700B7C380 /* ApplicationFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EE929DCE23700B7C380 /* ApplicationFlowCoordinator.swift */; };
 		B5743EEC29DCE41E00B7C380 /* ApplicationFlowAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743EEB29DCE41E00B7C380 /* ApplicationFlowAssembly.swift */; };
@@ -160,7 +160,7 @@
 		B5743EBF29DB92C100B7C380 /* APIRequestProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestProxy.swift; sourceTree = "<group>"; };
 		B5743EC129DB94D400B7C380 /* ApiPrefixPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPrefixPlugin.swift; sourceTree = "<group>"; };
 		B5743EC329DB95C400B7C380 /* ApiKeyPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiKeyPlugin.swift; sourceTree = "<group>"; };
-		B5743EC529DB98B000B7C380 /* CoreApiClientAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreApiClientAssembler.swift; sourceTree = "<group>"; };
+		B5743EC529DB98B000B7C380 /* CoreApiClientAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreApiClientAssembly.swift; sourceTree = "<group>"; };
 		B5743EC929DB9ACF00B7C380 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		B5743ECD29DB9DF400B7C380 /* TopMoviesRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviesRequestService.swift; sourceTree = "<group>"; };
 		B5743ED029DB9EA500B7C380 /* TopMoviesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviesRequest.swift; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 		B5743EDC29DCD9D500B7C380 /* TopMoviesListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviesListModel.swift; sourceTree = "<group>"; };
 		B5743EDE29DCDAC400B7C380 /* TopMoviesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviesListViewModel.swift; sourceTree = "<group>"; };
 		B5743EE029DCDB2300B7C380 /* TopMoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviesListViewController.swift; sourceTree = "<group>"; };
-		B5743EE329DCDBA500B7C380 /* TopListControllerAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListControllerAssembler.swift; sourceTree = "<group>"; };
+		B5743EE329DCDBA500B7C380 /* TopListControllerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListControllerAssembly.swift; sourceTree = "<group>"; };
 		B5743EE729DCE07000B7C380 /* TopMoviesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviesAssembly.swift; sourceTree = "<group>"; };
 		B5743EE929DCE23700B7C380 /* ApplicationFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowCoordinator.swift; sourceTree = "<group>"; };
 		B5743EEB29DCE41E00B7C380 /* ApplicationFlowAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFlowAssembly.swift; sourceTree = "<group>"; };
@@ -322,7 +322,7 @@
 			children = (
 				B5743EB629DB7E2600B7C380 /* Plugin */,
 				B5743EB929DB815900B7C380 /* CoreApiClient.swift */,
-				B5743EC529DB98B000B7C380 /* CoreApiClientAssembler.swift */,
+				B5743EC529DB98B000B7C380 /* CoreApiClientAssembly.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -403,7 +403,7 @@
 		B5743EE229DCDB7000B7C380 /* FlowCore */ = {
 			isa = PBXGroup;
 			children = (
-				B5743EE329DCDBA500B7C380 /* TopListControllerAssembler.swift */,
+				B5743EE329DCDBA500B7C380 /* TopListControllerAssembly.swift */,
 			);
 			path = FlowCore;
 			sourceTree = "<group>";
@@ -865,7 +865,7 @@
 			files = (
 				B5743EBA29DB815900B7C380 /* CoreApiClient.swift in Sources */,
 				B5743E7429D9F4C800B7C380 /* Environment.swift in Sources */,
-				B5743EC629DB98B000B7C380 /* CoreApiClientAssembler.swift in Sources */,
+				B5743EC629DB98B000B7C380 /* CoreApiClientAssembly.swift in Sources */,
 				B5743EC229DB94D400B7C380 /* ApiPrefixPlugin.swift in Sources */,
 				B5743EBE29DB8D1B00B7C380 /* LanguagePlugin.swift in Sources */,
 				B5743EB829DB7FE300B7C380 /* NetworkPlugin.swift in Sources */,
@@ -879,7 +879,7 @@
 			files = (
 				B5743ED729DCBF4000B7C380 /* NetworkMovieData.swift in Sources */,
 				B5743EE129DCDB2300B7C380 /* TopMoviesListViewController.swift in Sources */,
-				B5743EE429DCDBA500B7C380 /* TopListControllerAssembler.swift in Sources */,
+				B5743EE429DCDBA500B7C380 /* TopListControllerAssembly.swift in Sources */,
 				B5743EDA29DCC86A00B7C380 /* TopMoviesFlowCoordinator.swift in Sources */,
 				B5743EDF29DCDAC400B7C380 /* TopMoviesListViewModel.swift in Sources */,
 				B5743ED129DB9EA500B7C380 /* TopMoviesRequest.swift in Sources */,

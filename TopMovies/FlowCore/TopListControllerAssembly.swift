@@ -1,5 +1,5 @@
 //
-//  TopListControllerAssembler.swift
+//  TopListControllerAssembly.swift
 //  TopMovies
 //
 //  Created by Serhii Prykhodko on 05.04.2023.
@@ -7,9 +7,9 @@
 
 import Foundation
 
-struct TopListControllerAssembler {
+struct TopListControllerAssembly {
   
-  static func assembly(
+  static func assemble(
     navigationHandler: TopMoviesListNavigationHandler,
     dependencies: Dependencies
   ) -> TopMoviesListViewController {

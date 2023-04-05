@@ -11,7 +11,7 @@ import Core
 struct TopMoviesAssembly {
   
   static func assemble() -> TopMoviesFlowCoordinator {
-    let apiClient = CoreApiClientAssembler.assembly(
+    let apiClient = CoreApiClientAssembly.assemble(
       serverBaseURL: Environment.default.hostURL,
       apiKey: Environment.default.imdbApiKey
     )
